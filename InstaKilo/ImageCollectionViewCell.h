@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ImageCollectionViewCell.h
 //  InstaKilo
 //
 //  Created by Tim Beals on 2016-11-16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ImageCollectionViewCell : UICollectionViewCell
 
-@property (strong, nonatomic) UIWindow *window;
+@property (weak, nonatomic) IBOutlet UIImageView *cellImage;
 
 @end
